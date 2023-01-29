@@ -11,8 +11,8 @@ import IconButton from './IconButton'
 
 function Sidebar() {
   return (
-    <div>
-      <div className="text-gray-500 p-5 text-sm border-r border-gray-900">
+    <div className="text-gray-500 p-5 text-sm border-r border-gray-900">
+      <div className="space-y-4">
         <IconButton title="Home">
           <HomeIcon className="h-5" />
         </IconButton>
@@ -22,7 +22,7 @@ function Sidebar() {
         <IconButton title="Your Library">
           <BuildingLibraryIcon className="h-5" />
         </IconButton>
-        <hr className="border-t-[0.1px] border-gray-900" />
+        <hr className="divider" />
         <IconButton title="Create Playlist">
           <PlusCircleIcon className="h-5" />
         </IconButton>
@@ -32,6 +32,22 @@ function Sidebar() {
         <IconButton title="Your episodes">
           <RssIcon className="h-5" />
         </IconButton>
+        <hr className="divider" />
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
+        <p className="cursor-pointer hover:text-white">PlayList name</p>
       </div>
     </div>
   )
