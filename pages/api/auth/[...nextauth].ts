@@ -32,7 +32,7 @@ export const authOptions = {
       authorization: LOGIN_URL,
     }),
   ],
-  secret: process.env.SECRET,
+  secret: process.env.JWT_SECRET,
   pages: {
     signIn: '/login',
   },
